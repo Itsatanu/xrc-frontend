@@ -1,0 +1,57 @@
+.admin-panel-update-deposit-withdrawal {
+    height: calc(100vh - 60px);
+    width: 100vw;
+    margin-top: 60px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.update-deposit-withdrawal-details{
+    margin-top: 20px;
+}
+.update-deposit-withdrawal-form{
+    height: 200px;
+    width: 300px;
+    padding: 10% 0;
+    margin: 10% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.update-deposit-withdrawal-form select{
+    height: 30px;
+    width: 150px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+.update-deposit-withdrawal-form input{
+    height: 30px;
+    width: 250px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    margin: 0 20px;
+}
+.update-deposit-withdrawal-form button{
+    height: 35px;
+    padding: 0 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    color: #ffffff;
+    background-color: rgb(43, 61, 226);
+    margin: 0 20px;
+}
+.update-deposit-withdrawal-form div{
+    height: 35px;
+    width: 100%;
+    font-size: 15px;
+    color: rgb(255, 38, 38);
+    text-align: center;
+}

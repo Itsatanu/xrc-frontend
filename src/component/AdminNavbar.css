@@ -1,0 +1,83 @@
+.adminsidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 60px;
+  left: -250px; /* Initially hidden */
+  background-color: #101010;
+  color: white;
+  transition: left 0.3s ease; /* Smooth transition for sliding */
+  padding-top: 20px;
+}
+
+.adminsidebar.open {
+  left: 0; /* Slide in the sidebar when open */
+}
+
+.adminsidebar.closed {
+  left: -250px; /* Slide out the sidebar when closed */
+}
+
+.adminsidebar nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.adminsidebar nav ul li {
+  padding: 10px 0px ;
+}
+.admin-sidebar-list-view:hover{
+  background-color:#292929
+}
+.adminsidebar nav ul li button {
+  color: white;
+  text-decoration: none;
+  display: block;
+  border: none;
+  background: transparent;
+  height: 30px;
+  width: calc(100% - 10% );
+  margin: 0 0 0 10%;
+  font-size: medium;
+  text-align: start;
+}
+
+
+
+
+
+
+
+
+
+  
+  /* Navbar Styles */
+  .admin-navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 1000;
+  }
+  .admin-nav-btn-div{
+    min-width: 60px;
+    width: 7%;
+    display: flex;
+    justify-content: center;
+  }
+  .admin-nav-btn-div button{
+    background: transparent;
+    border: none;
+  }
+  .admin-nav-app-name {
+    font-size: 24px;
+    font-weight: bold;
+    width: 93%;
+    text-align: center;
+  }
+  

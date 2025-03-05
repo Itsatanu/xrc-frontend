@@ -1,0 +1,45 @@
+.update-deposit-withdrawal-filter {
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items:end ;
+    background-color: rgb(27, 27, 27);
+}
+.update-deposit-withdrawal-filter select{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.admin-all-user-main-stracture {
+    min-height: calc(100vh - 60px - 100px);
+    height: fit-content;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: none;
+}
+
+.all-user-output {
+    min-width: 250px;
+    width: 80vw;
+    color: white;
+    background-color: rgb(30, 30, 30);
+    margin-top: 20px;
+    padding: 10px 10px;
+    border: 1px solid rgb(113, 113, 113);
+    border-radius: 20px;
+    overflow-wrap: break-word;
+}
+
+.all-user-output p {
+    padding-top: 10px;
+}
+
+.all-user-output button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}

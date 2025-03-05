@@ -1,0 +1,84 @@
+.admin-main-stracture {
+    min-height: 100vh;
+    height: fit-content;
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.find-user-main-container {
+    min-width: 300px;
+    width: 80vw;
+    min-height: 500px;
+    height: auto;
+}
+
+.find-user-form {
+    margin-top: 60px;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.find-user-form-div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+}
+
+.find-user-form select {
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+
+.find-user-form input {
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+
+.find-user-form button {
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+
+.find-user-output {
+    color: white;
+    background-color: rgb(30, 30, 30);
+    margin-top: 20px;
+    padding: 10px 10px;
+    border: 1px solid rgb(113, 113, 113);
+    border-radius: 20px;
+}
+
+.find-user-output button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.admin-find-user-output-para {
+    padding-top: 10px;
+}
+
+.referredUsers-class {
+    padding-left: 20px;
+}

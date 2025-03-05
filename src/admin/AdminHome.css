@@ -1,0 +1,38 @@
+:root{
+    --shadow:#000000;
+}
+.admin-panel {
+    height: calc(100vh - 60px);
+    width: 100vw;
+    margin-top: 60px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.admin-panel div {
+    color: #ffffff; /* White text */
+    letter-spacing: .15em;
+    text-shadow: 1px -1px 0 rgb(136, 135, 135), -1px 2px 1px rgb(120, 120, 120), -2px 4px 1px rgb(114, 114, 114), -3px 6px 1px rgb(105, 105, 105),
+               -4px 8px 1px rgb(95, 95, 95), -5px 10px 1px rgb(80, 80, 80), -6px 12px 1px rgb(80, 80, 80), -7px 14px 1px rgb(54, 54, 54),
+               -8px 16px 1px rgb(54, 54, 54), -9px 18px 1px rgb(37, 37, 37), -10px 20px 1px rgb(37, 37, 37), -11px 22px 1px rgb(27, 27, 27),
+               -12px 24px 1px rgb(27, 27, 27); 
+  }
+  
+  @media only screen and (min-width: 400px) {
+    .admin-panel {
+        font-size: 50px;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .admin-panel {
+        font-size: 60px;
+    }
+  }
+  @media only screen and (min-width: 800px) {
+    .admin-panel {
+        font-size: 70px;
+    }
+  }

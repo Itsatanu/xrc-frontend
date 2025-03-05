@@ -1,0 +1,53 @@
+.ton-container {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(226, 226, 226, 0.5);
+}
+
+.ton-content {
+    flex-grow: 1;
+    margin-right: 16px;
+}
+
+.ton-heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0 0 8px 0;
+    background-image: linear-gradient(45deg, rgb(255, 8, 0), rgb(255, 103, 1), rgb(255, 166, 0));
+    background-clip: text;
+    -webkit-background-clip:text;
+    color: transparent;
+}
+
+.ton-address {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    word-break: break-all;
+}
+
+.copy-button {
+    background-color: #ff7700;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.copy-button:hover {
+    background-color: #ff7700;
+}
+
+.copy-button:active {
+    background-color: #ff7700;
+}

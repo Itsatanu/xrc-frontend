@@ -1,0 +1,145 @@
+.bap-container {
+    max-width: 500px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+    
+  .bap-content {
+    background: rgb(250, 250, 250);
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .bap-section {
+    margin-bottom: 20px;
+  }
+  
+  .bap-section-title {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .bap-balance-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .bap-balance-button {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(240, 240, 240);
+    cursor: pointer;
+  }
+  
+  .bap-balance-button.active {
+    background: #00c853;
+    color: white;
+  }
+  
+  .bap-quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .bap-quantity-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background: #00c853;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bap-quantity-input {
+    flex: 1;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .bap-multiplier-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .bap-multiplier-button {
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background: #f5f5f5;
+    cursor: pointer;
+  }
+  
+  .bap-multiplier-button.active {
+    background: #00c853;
+    color: white;
+  }
+  
+  .bap-agreement {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .bap-checkbox {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bap-checkbox.checked {
+    background: #ff5252;
+    border-color: #ff5252;
+  }
+  
+  .bap-checkbox.checked::after {
+    content: '✓';
+    color: white;
+  }
+  
+  .bap-pre-sale-rules {
+    color: #ff5252;
+    text-decoration: none;
+  }
+  
+  .bap-footer {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .bap-footer button {
+    flex: 1;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .bap-cancel-button {
+    background: #f5f5f5;
+    color: #666;
+  }
+  
+  .bap-total-button {
+    background: #00c853;
+    color: white;
+  }
+  

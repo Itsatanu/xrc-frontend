@@ -1,0 +1,66 @@
+.transaction-history{
+    height: auto;
+    background-color: rgb(255, 255, 255);
+}
+.tanx-btn{
+    width: 150px;
+    margin: 0 calc((100% - 120px) / 2);
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: transparent;
+    
+}
+.transaction-history-loader-div{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+.tsnx-div{
+    height: auto;
+    width: 80%;
+    margin: 20px 5%;
+    padding: 10px 5%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0px 0px 5px 0px rgba(88,88,88,0.2);
+    overflow-wrap: break-word;
+}
+.tsnx-div-style{
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+}
+.deposit-tsnx-type-status{
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.deposit-tsnx-type-status button{
+    height: 30px;
+    padding: 0 20px;
+    color: white;
+    background-color: rgb(24, 182, 96);
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+}
+.withdrawal-tsnx-type-status{
+    padding: 10px 0px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.withdrawal-tsnx-type-status button{
+    height: 30px;
+    padding: 0 20px;
+    color: white;
+    background-color: rgb(251, 91, 91);
+    border: none;
+    border-radius: 10px;
+    font-size: medium;
+}

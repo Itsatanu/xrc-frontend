@@ -1,0 +1,49 @@
+/* Base styles for mobile (mobile-first approach) */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  background-color: rgb(27, 27, 27);
+  border: none;
+}
+.pagination button {
+  padding: 8px 12px;
+  margin: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: #50a5ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: #007bff;
+}
+
+.pagination button.active {
+  background-color: #0064ce;
+}
+
+.pagination button:disabled {
+  background-color: #c9e3fe;
+  cursor: not-allowed;
+}
+
+/* For large screen sizes (e.g., tablets and desktops) */
+@media screen and (min-width: 600px) {
+  .pagination button {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .pagination button {
+    padding: 10px 20px;
+    margin: 0 8px;
+    font-size: 18px;
+  }
+}
