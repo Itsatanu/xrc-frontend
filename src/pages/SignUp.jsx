@@ -29,7 +29,6 @@ const SignUp = () => {
     }
 
     useEffect(() => {
-        alert(API_URL)
         const params = new URLSearchParams(window.location.search);
         const referValue = params.get('refer');
         setReferrerId(referrerId=referValue)
