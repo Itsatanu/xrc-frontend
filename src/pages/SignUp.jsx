@@ -3,6 +3,7 @@ import validator from 'validator'
 import { NavLink } from 'react-router-dom'
 import LazyLoading from '../asset/lazyLoading/LazyLoading';
 import useRequestes from '../hooks/useRequestes';
+import {API_URL} from '../config/urlConfig'
 import './SignUp.css'
 import { useNavigate } from 'react-router-dom';
 const SignUp = () => {
@@ -28,6 +29,7 @@ const SignUp = () => {
     }
 
     useEffect(() => {
+        alert(API_URL)
         const params = new URLSearchParams(window.location.search);
         const referValue = params.get('refer');
         setReferrerId(referrerId=referValue)
@@ -50,7 +52,7 @@ const SignUp = () => {
             return
         }
         
-        let response= await req.request('http://localhost:3000/api/signup', 'POST', {phone, password, referrerId} )
+        let response= await req.request(`${API_URL}/api/signup`, 'POST', {phone, password, referrerId} )
         setLoading(loading = false)
 
         if(response.status==400){
