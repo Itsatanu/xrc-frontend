@@ -108,9 +108,7 @@ function DepositAndWithdrawal() {
         }
         else if (regex.test(walletAddress)===false) {
             setLoading(loading = false)
-            // setError('Enter Valid Wallet Address')
-            setError('Elllllllll')
-
+            setError('Enter Valid Wallet Address')
             return
         }
         else if(tnxId==''){
